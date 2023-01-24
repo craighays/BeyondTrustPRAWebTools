@@ -11,6 +11,7 @@ The following properties need to be set in order for this script to work:
 
 $tokenUrl = "https://<SERVER>.beyondtrustcloud.com/oauth2/token";
 $BasicAuth = "<CLIENT_ID>:<CLIENT_SECRET>";
+$APIRequest = "https://<SERVER>.beyondtrustcloud.com/api/reporting?generate_report=AccessSession&start_time=".$reportFrom."&duration=0";
 
 Replace <SERVER> with your cloud hosted appliance server name. If you're using a self-hosted appliance then you'll need to replace the full URL instead of just the subdomain.
 
