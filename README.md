@@ -15,3 +15,6 @@ Replace <SERVER> with your cloud hosted appliance server name. If you're using a
 Replace <CLIENT_ID> and <CLIENT_SECRET> with the API key generated on your appliance.
 
 ## API Key Permissions
+
+For the tools currently supported in this package your API key will need the following permissions:
+  * Reporting API: Access Sessions
