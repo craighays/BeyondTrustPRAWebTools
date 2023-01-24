@@ -31,7 +31,7 @@ $AuthBearer = "Authorization: Bearer ".$data->access_token;
 
 $now = time();
 $reportFrom = $now - (60 * 60 * 24 * 7); // 60 seconds x 60 minutes x 24 hours x 1 days = 1 days ago in seconds
-$APIRequest = "https://greencore.beyondtrustcloud.com/api/reporting?generate_report=AccessSession&start_time=".$reportFrom."&duration=0";
+$APIRequest = "https://<SERVER>.beyondtrustcloud.com/api/reporting?generate_report=AccessSession&start_time=".$reportFrom."&duration=0";
 
 //echo($AuthBearer);
 //echo($APIRequest);
